@@ -19,7 +19,7 @@ const App = () => {
     })
   const[libraryStatus, setLibraryStatus] = useState(false)
 
-   // Ref
+   // Reference
   const audioRef = useRef(null);
   // Event
   const timeUpdateHandler = (e) => {
